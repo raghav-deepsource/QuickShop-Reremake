@@ -31,7 +31,7 @@ import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.maxgamer.quickshop.QuickShop;
-import org.maxgamer.quickshop.database.WarpedResultSet;
+import org.maxgamer.quickshop.database.sql.WarpedResultSet;
 import org.maxgamer.quickshop.util.JsonUtil;
 import org.maxgamer.quickshop.util.Timer;
 import org.maxgamer.quickshop.util.Util;

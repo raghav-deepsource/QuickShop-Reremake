@@ -67,10 +67,10 @@ public class ShopModerator {
         this.staffs = staffs;
     }
 
-    public static ShopModerator deserialize(@NotNull String serilized) throws JsonSyntaxException {
+    public static ShopModerator deserialize(@NotNull String serialized) throws JsonSyntaxException {
         // Use Gson deserialize data
         Gson gson = JsonUtil.getGson();
-        return gson.fromJson(serilized, ShopModerator.class);
+        return gson.fromJson(serialized, ShopModerator.class);
     }
 
     public static String serialize(@NotNull ShopModerator shopModerator) {

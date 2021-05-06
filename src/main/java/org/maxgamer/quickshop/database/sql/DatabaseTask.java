@@ -17,7 +17,7 @@
  *
  */
 
-package org.maxgamer.quickshop.database;
+package org.maxgamer.quickshop.database.sql;
 
 
 import lombok.NonNull;

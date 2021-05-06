@@ -23,7 +23,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.maxgamer.quickshop.database.AbstractDatabaseCore;
+import org.maxgamer.quickshop.database.sql.AbstractDatabaseCore;
 import org.maxgamer.quickshop.economy.EconomyCore;
 import org.maxgamer.quickshop.util.language.game.GameLanguage;
 import org.maxgamer.quickshop.util.matcher.item.ItemMatcher;

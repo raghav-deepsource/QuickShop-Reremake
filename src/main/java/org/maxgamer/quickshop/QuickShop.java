@@ -46,7 +46,7 @@ import org.maxgamer.quickshop.chat.QuickChat;
 import org.maxgamer.quickshop.chat.QuickChatType;
 import org.maxgamer.quickshop.chat.platform.minedown.BungeeQuickChat;
 import org.maxgamer.quickshop.command.CommandManager;
-import org.maxgamer.quickshop.database.*;
+import org.maxgamer.quickshop.database.sql.*;
 import org.maxgamer.quickshop.economy.*;
 import org.maxgamer.quickshop.event.QSReloadEvent;
 import org.maxgamer.quickshop.integration.IntegrateStage;

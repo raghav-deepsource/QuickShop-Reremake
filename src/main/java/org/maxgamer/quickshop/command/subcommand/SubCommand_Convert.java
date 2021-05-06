@@ -28,7 +28,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.maxgamer.quickshop.QuickShop;
 import org.maxgamer.quickshop.command.CommandProcesser;
-import org.maxgamer.quickshop.database.*;
+import org.maxgamer.quickshop.database.sql.*;
 
 import java.io.File;
 import java.util.ArrayList;

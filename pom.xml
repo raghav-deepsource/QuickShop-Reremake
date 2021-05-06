@@ -867,6 +867,18 @@
         <!--            <artifactId>adventure-text-serializer-plain</artifactId>-->
         <!--        </dependency>-->
         <!--        &lt;!&ndash; Use Paper Adventure Lib End&ndash;&gt;-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>3.6.0</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>4.2.3</version>
+        </dependency>
     </dependencies>
 
     <!--    &lt;!&ndash; Use Paper Adventure Lib Start&ndash;&gt;-->

@@ -42,7 +42,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.maxgamer.quickshop.QuickShop;
-import org.maxgamer.quickshop.database.MySQLCore;
+import org.maxgamer.quickshop.database.sql.MySQLCore;
 import org.maxgamer.quickshop.shop.DisplayItem;
 import org.maxgamer.quickshop.shop.Shop;
 import org.maxgamer.quickshop.watcher.InventoryEditContainer;
@@ -888,6 +888,28 @@ public class Util {
         int x = (int) Math.floor((loc.getBlockX()) / 16.0);
         int z = (int) Math.floor((loc.getBlockZ()) / 16.0);
         return (loc.getWorld().isChunkLoaded(x, z));
+    }
+
+    /**
+     * Get the location block location
+     *
+     * @param location Location
+     * @return Block Location
+     */
+    @NotNull
+    public Location getBlockLocation(Location location) {
+        return new Location(location.getWorld(), location.getBlockX(), location.getBlockY(), location.getBlockZ());
+    }
+
+    /**
+     * Get the block centered location
+     *
+     * @param location Location
+     * @return Centered Location
+     */
+    @NotNull
+    public Location getCenteredLocation(Location location) {
+        return getBlockLocation(location).clone().add(0.5, 0.5, 0.5);
     }
 
     /**
